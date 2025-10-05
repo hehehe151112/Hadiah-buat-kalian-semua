@@ -1,0 +1,67 @@
+/* Styling untuk halaman secara keseluruhan */
+body {
+    background-color: #000; /* Latar belakang hitam */
+    color: #fff; /* Warna teks putih */
+    font-family: sans-serif; /* Font sederhana */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Memastikan body mengisi seluruh tinggi viewport */
+    margin: 0;
+    text-align: center;
+}
+
+/* Styling untuk teks sapaan besar "Hai kawan" */
+.greetings {
+    font-size: 3em; /* Ukuran font besar */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.greetings span {
+    /* Jika ingin membuat efek animasi per huruf, stylingnya akan di sini */
+    display: inline-block; /* Penting untuk animasi per huruf */
+    color: #00ffc8; /* Warna hijau/biru neon untuk nama */
+}
+
+/* Styling untuk deskripsi/pesan */
+.description {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Styling untuk tombol */
+.button button {
+    background-color: transparent; /* Latar belakang tombol transparan */
+    border: 2px solid #fff; /* Border putih */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button button a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #fff; /* Warna teks tautan putih */
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* Efek hover pada tombol */
+.button button:hover {
+    background-color: #00ffc8;
+    border-color: #00ffc8;
+}
+
+.button button:hover a {
+    color: #000; /* Teks menjadi hitam saat di-hover */
+}
+
+/* Styling halaman bunga flower.html */
+.flower-container {
+    /* Ganti elemen ini dengan kode untuk gambar bunga atau animasi CSS bunga Anda */
+    font-size: 2em;
+    margin-top: 50px;
+    /* Tambahkan styling khusus untuk menempatkan bunga di bawah layar, seperti di video */
+}
